@@ -255,6 +255,9 @@
   .grid {
     display: grid;
   }
+  .hidden {
+    display: none;
+  }
   .h-\[70px\] {
     height: 70px;
   }
@@ -570,6 +573,11 @@
       @media (hover: hover) {
         color: var(--color-gray-400);
       }
+    }
+  }
+  .sm\:flex {
+    @media (width >= 40rem) {
+      display: flex;
     }
   }
 }
